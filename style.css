@@ -74,7 +74,7 @@ body{
     height:15vh;
     resize: none;
     font-family: "Lato";
-    font-size:5vhpx;
+    font-size:20px;
     
 }
 
@@ -85,10 +85,16 @@ body{
     padding: 2rem 1rem;
 
     font-size:5vw;
+    border-top-right-radius: 1rem;
+    border-top-left-radius:1rem;
     position: fixed; 
     left: 0; 
     bottom: 0;
      right: 0;
     
+}
+
+.cl-footer p{
+font-size:16px;
 }
 
