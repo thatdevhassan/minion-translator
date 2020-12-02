@@ -9,6 +9,7 @@
 body{
     font-family:"Lato", "sans-serif";
     margin:0px;
+
 }
 
 
@@ -75,7 +76,7 @@ body{
     resize: none;
     font-family: "Lato";
     font-size:20px;
-    
+
 }
 
 
@@ -87,7 +88,7 @@ body{
     font-size:5vw;
     border-top-right-radius: 1rem;
     border-top-left-radius:1rem;
-    position: fixed; 
+    position: relative; 
     left: 0; 
     bottom: 0;
      right: 0;
