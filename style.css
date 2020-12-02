@@ -29,7 +29,7 @@ body{
 
 .text{
     text-align:center;
-    padding:1.5rem;
+    padding:1rem;
 }
 
 .in-textarea{
@@ -68,7 +68,9 @@ body{
 
     font-size:5vw;
     position: fixed; 
-    left: 0; bottom: 0; right: 0;
+    left: 0; 
+    bottom: 0;
+     right: 0;
     
 }
 
