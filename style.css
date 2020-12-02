@@ -58,6 +58,19 @@ body{
   border: 0px solid;
   background-color: var(--primary-color);
   padding: 0.5rem 3rem;
+  border-radius: 1rem 1rem;
+
+
+}
+.btnclass .trans-button :hover{
+ color:red;
+ border:none;
+ animation-delay: 3s;
+ 
+}
+
+.btnclass :hover{
+    border:1px solid black;
 }
 
 .btnclass p{
@@ -88,7 +101,7 @@ body{
     font-size:5vw;
     border-top-right-radius: 1rem;
     border-top-left-radius:1rem;
-    position: relative; 
+    position:absolute; 
     left: 0; 
     bottom: 0;
      right: 0;
