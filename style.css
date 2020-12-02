@@ -2,6 +2,8 @@
 
 :root{
     --primary-color: #ffe135;
+    /* --primary-color : #00d4ff; */
+
 }
 
 body{
@@ -63,7 +65,10 @@ body{
     background-color: var(--primary-color);
     text-align:center;
     padding: 2rem 1rem;
-    bottom: 0;
-    font-size:40px;
+
+    font-size:5vw;
+    position: fixed; 
+    left: 0; bottom: 0; right: 0;
+    
 }
 
