@@ -9,7 +9,7 @@ var serverUrl = "https://api.funtranslations.com/translate/minion.json"
 
 
 function createUrl(input){
-    var url = serverUrl+ "?text="+ input
+    var url = serverUrl+ "?text="+ input;
     return url;
 }
 
@@ -27,7 +27,7 @@ function clickHandler(){
     var urlReady = createUrl(inputText);
 
 
-    var a = fetch(urlReady).then(response => response.json()).then(json=>{
+    fetch(urlReady).then(response => response.json()).then(json=>{
         var translatedText = json.contents.translated;
         
         outtext.innerText = translatedText;
