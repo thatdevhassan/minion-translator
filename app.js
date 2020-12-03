@@ -26,11 +26,11 @@ function clickHandler(){
     var inputText = intext.value;
     var urlReady = createUrl(inputText);
 
-    
+
     var a = fetch(urlReady).then(response => response.json()).then(json=>{
         var translatedText = json.contents.translated;
         outtext.innerText = translatedText;
-}).catch(errorHandler)
+}).catch(errorHandler);
 
 };
 
