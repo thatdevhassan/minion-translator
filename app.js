@@ -19,7 +19,7 @@ function createUrl(input){
 function errorHandler(error){
     console.log("error occured",error);
     alert("something is wrong with the server");
-};
+}
 
 
 function clickHandler(){
@@ -33,7 +33,7 @@ function clickHandler(){
         outtext.innerText = translatedText;
 }).catch(errorHandler)
 
-};
+}
 
 btnTranslate.addEventListener("click",clickHandler)
 
