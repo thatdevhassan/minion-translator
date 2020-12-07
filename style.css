@@ -98,13 +98,14 @@ body{
     text-align:center;
     padding: 2rem 1rem;
 
-    font-size:5vw;
+    font-size:2rem;
     border-top-right-radius: 1rem;
     border-top-left-radius:1rem;
     position:relative; 
     left: 0; 
     bottom: 0;
-     right: 0;
+    right: 0;
+    top: 60px;
     
 }
 
